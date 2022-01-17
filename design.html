@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
+<!--    <link rel="stylesheet" href="./dashboard.css">-->
     <link rel="stylesheet"
       href="{{url_for('.static', filename='css/dashboard.css')}}">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -21,43 +22,49 @@
           </a>
         </li>
         <li>
-          <a href="issued">
+          <a href="#">
             <i class='bx bx-box' ></i>
-            <span class="links_name">Issue</span>
+            <span class="links_name">All ITSC EQ</span>
           </a>
         </li>
         <li>
-          <a href="music">
+          <a href="#">
             <i class='bx bx-list-ul' ></i>
-            <span class="links_name">Issued Things</span>
+            <span class="links_name">Issue Things</span>
           </a>
         </li>
         <li>
-          <a href="records">
+          <a href="https://web.whatsapp.com/">
             <i class='bx bx-pie-chart' ></i>
-            <span class="links_name">All ITSC Equipments</span>
+            <span class="links_name">Records</span>
           </a>
         </li>
         <li>
-          <a href="receive">
+          <a href="#">
             <i class='bx bx-coin-stack' ></i>
-            <span class="links_name">Receive</span>
+            <span class="links_name">Available things</span>
           </a>
         </li>
         <li>
-          <a href="IT_MEMBERS">
+          <a href="#">
+            <i class='bx bx-git-pull-request'></i>
+            <span class="links_name">Students Requests</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
             <i class='bx bx-user' ></i>
             <span class="links_name">IT Members</span>
           </a>
         </li>
         <li>
-          <a href="adduser">
+          <a href="showPosts.html">
             <i class='bx bxs-like bx-tada-hover'></i>
-            <span class="links_name">Adduser</span>
+            <span class="links_name">Messages</span>
           </a>
         </li>
         <li>
-          <a href="http://www.worldcup.com">
+          <a href="#">
             <i class='bx bx-heart' ></i>
             <span class="links_name">Most Demanded</span>
           </a>
@@ -69,7 +76,7 @@
           </a>
         </li>
         <li class="log_out">
-          <a href="login">
+          <a href="login.html">
             <i class='bx bx-log-out'></i>
             <span class="links_name">Log out</span>
           </a>
@@ -88,10 +95,12 @@
       </div>
       <div class="profile-details">
         <img src="{{url_for('.static', filename='jimi.jpeg')}}" alt="">
-        <span class="admin_name">ITSC NAMAL</span>
+        <span class="admin_name">JAMSHED MEHSUD</span>
         <i class='bx bx-chevron-down' ></i>
       </div>
+
     </nav>
+
     <div class="home-content">
       <div class="overview-boxes">
         <div class="box">
@@ -134,11 +143,13 @@
             <div class="indicator">
               <i class='bx bx-down-arrow-alt down'></i>
               <span class="text">Down From Today</span>
+
             </div>
           </div>
           <i class='bx bxs-cart-download cart four' ></i>
         </div>
       </div>
+
       <div class="sales-boxes">
         <div class="recent-sales box">
           <div class="title">Recent Equipments</div>
@@ -150,6 +161,7 @@
 <!--              <li><a href="#">02 dec 2021</a></li>-->
 <!--              <li><a href="#">02 dec 2021</a></li>-->
 <!--              <li><a href="#">02 dec 2021</a></li>-->
+
             </ul>
             <ul class="details">
             <li class="topic">Admin</li>
@@ -158,9 +170,11 @@
 <!--            <li><a href="#">Sania</a></li>-->
 <!--            <li><a href="#">Qais</a></li>-->
 <!--            <li><a href="#">Bakht</a></li>-->
+
           </ul>
           <ul class="details">
             <li class="topic">Administrator</li>
+
 <!--            <li><a href="#">Delivered</a></li>-->
 <!--            <li><a href="#">Pending</a></li>-->
 <!--            <li><a href="#">Returned</a></li>-->
@@ -174,6 +188,7 @@
 <!--            <li><a href="#">fax machine</a></li>-->
 <!--            <li><a href="#">music sound</a></li>-->
 <!--            <li><a href="#">connector cable</a></li>-->
+
           </ul>
           </div>
           <div class="button">
@@ -217,11 +232,13 @@
 <!--            </a>-->
 <!--            <span class="price">100</span>-->
 <!--          </li>-->
+
 <!--          </ul>-->
         </div>
       </div>
     </div>
   </section>
+
   <script>
    let sidebar = document.querySelector(".sidebar");
 let sidebarBtn = document.querySelector(".sidebarBtn");
@@ -233,5 +250,7 @@ sidebarBtn.onclick = function() {
   sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
 }
  </script>
+
 </body>
 </html>
+
